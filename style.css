@@ -1,5 +1,5 @@
 .wrap {
-	width: 30%;
+	width: 400px;
 	margin: 20px auto;
 	padding: 20px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -32,4 +32,8 @@ button {
 }
 h3 {
     text-align: center;
+}
+input {
+    width: 25%;
+    display: inline-block;
 }

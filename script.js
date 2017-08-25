@@ -30,7 +30,7 @@ function Blk() {
         p2.innerHTML = 'Квартира в парадной №3';
     }
     else {
-        p2.innerHTML = 'В этом доме нет такой квартиры';
+        p2.innerHTML = 'В этом доме нет такой квартиры!';
     }
 }
 
@@ -66,10 +66,10 @@ function Fdate() {
     var a3 = document.getElementById('date').value;
     var b3 = 2017 - a3;
     if (b3 >= 16) {
-        p4.innerHTML = 'Вам '+b3+' лет, добро пожаловать!';
+        p4.innerHTML = 'Ваш возраст '+b3+', добро пожаловать!';
     }
     else    {
-        p4.innerHTML = 'Вам '+b3+' лет, вход воспрещен!';
+        p4.innerHTML = 'Ваш возраст '+b3+', вход воспрещен!';
     }
 }
 
@@ -93,7 +93,7 @@ function Fseniority() {
         p5.innerHTML = 'Надбавка за стаж 30%';
     }
     else {
-        p5.innerHTML = 'Ошибка. Введено отрицательное число!!'
+        p5.innerHTML = 'Ошибка! Введено отрицательное число.'
     }
 }
 

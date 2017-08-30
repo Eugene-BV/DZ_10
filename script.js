@@ -3,6 +3,8 @@
 function Max() {
     var a = document.getElementById('num1').value;
     var b = document.getElementById('num2').value;
+    a=parseInt(a);
+    b=parseInt(b);
     if (a === b) {
         p1.innerHTML += 'Числа №1 и №2 равны <br>';
     }

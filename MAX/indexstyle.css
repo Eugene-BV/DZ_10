@@ -12,6 +12,7 @@ nav sub {
 }
 .portrait {
     width: 100%;
+    background-image: url(portrait.png);
 }
 .parallax-container .parallax img {
     bottom: -44px;

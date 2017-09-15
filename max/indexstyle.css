@@ -23,6 +23,10 @@ nav sub {
 textarea.materialize-textarea {
     padding: 0;
 }
+.row .col .consult__order {
+    margin: 15px auto;
+    float: inherit;
+}
 
 @media only screen and (min-width: 0){
     .logomax {

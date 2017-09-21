@@ -15,7 +15,10 @@ nav sub {
     background-image: url(portrait.png);
 }
 .parallax-container .parallax img {
-    bottom: 100px;
+    bottom: 80px;
+}
+.parallax-container .contact img  {
+    bottom: -43px;
 }
 .first__paralax {
     margin-bottom: 0;

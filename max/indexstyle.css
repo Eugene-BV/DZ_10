@@ -30,6 +30,10 @@ textarea.materialize-textarea {
     margin: 15px auto;
     float: inherit;
 }
+.el__logo {
+    width: 100%;
+    margin-top: 6rem;
+}
 
 @media only screen and (min-width: 0){
     .logomax {
@@ -51,4 +55,16 @@ textarea.materialize-textarea {
     }
         nav .button-collapse {
         margin: 0 18px;
+    }
+
+@media only screen and (max-width: 600px){
+    .logomax {
+        display: inherit;
+    }
+    }
+    
+@media only screen and (min-width: 601px){
+    .logomax {
+        display: none;
+    }
     }

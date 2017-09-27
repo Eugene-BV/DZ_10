@@ -1,4 +1,6 @@
-
+banner__container {
+    min-height: 400px;
+}
 }
 nav a {
     font-family: inherit;
@@ -11,11 +13,11 @@ nav sub {
     height: 64px;
 }
 .portrait {
-    width: 100%;
+    width: 86%;
     background-image: url(portrait.png);
 }
 .parallax-container .parallax img {
-    bottom: 80px;
+/*    bottom: 80px;*/
 }
 .parallax-container .contact img  {
     bottom: -43px;
@@ -34,6 +36,11 @@ textarea.materialize-textarea {
     width: 100%;
     margin-top: 6rem;
 }
+.section.no-pad-bot {
+    position: absolute;
+    bottom: 0;
+}
+
 
 @media only screen and (min-width: 0){
     .logomax {
@@ -68,3 +75,8 @@ textarea.materialize-textarea {
         display: none;
     }
     }
+    @media only screen and (min-width: 993px) {
+        .container {
+            height: auto;
+        }
+}

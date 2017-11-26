@@ -1,0 +1,37 @@
+.wrap {
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+span {
+    display: inline-block;
+    width: 60%;
+    margin: 10px;
+}
+
+body {
+    font-family: sans-serif;
+    color: navy;
+}
+
+button {
+    display: block;
+    min-width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: orange;
+    background-color: orange;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 1px 1px 2px #2d2d2d;
+    text-shadow: 1px 1px 2px black;
+}
+
+h3 {
+    text-align: center;
+}
